@@ -1,0 +1,164 @@
+
+.owl-carouselfirst {
+  display: none;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+  .owl-carouselfirst .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y; }
+  .owl-carouselfirst .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .owl-carouselfirst .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    margin-left: 240px;
+    margin-right: 240px;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+
+.owl-carouselfirst .owl-stage-outer .owl-stage {
+  margin-top: 60px;
+}
+.owl-carouselfirst .owl-stage-outer .owl-stage .item {
+  width: 280px;
+  height: 160px;
+  margin: 0px;
+}
+
+  .owl-carouselfirst .owl-item {
+    width: 150px;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; }
+  .owl-carouselfirst .owl-item img {
+    display: block;
+    -webkit-transform-style: preserve-3d;
+    margin-top: 50px;
+
+  }
+
+  .owl-carouselfirst .owl-nav .owl-prev,
+  .owl-carouselfirst .owl-nav .owl-next,
+  .owl-carouselfirst .owl-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carouselfirst.owl-loaded {
+    display: block; }
+  .owl-carouselfirst.owl-loading {
+    opacity: 0;
+    display: block; }
+  .owl-carouselfirst.owl-hidden {
+    opacity: 0; }
+  .owl-carouselfirst.owl-refresh .owl-item {
+    visibility: hidden; }
+  .owl-carouselfirst.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carouselfirst.owl-grab {
+    cursor: move;
+    cursor: grab; }
+  .owl-carouselfirst.owl-rtl {
+    direction: rtl; }
+  .owl-carouselfirst.owl-rtl .owl-item {
+    float: right; }
+
+
+
+
+  /*------------------------------TEST--------------------------------------*/
+
+
+.photoslider {
+  display: none;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; }
+
+.photoslider .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y; }
+.photoslider .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+.photoslider .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  /* fix for flashing background */
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+.photoslider .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; }
+
+
+
+
+.photoslider .facephoto {
+  display: block;
+  position: absolute;
+  left: 275px;
+  top: 70px;
+  -webkit-transform-style: preserve-3d; }
+.photoslider .owl-nav.disabled,
+.photoslider .owl-dots.disabled {
+  display: none; }
+.photoslider .owl-nav .owl-prev,
+.photoslider .owl-nav .owl-next,
+.photoslider .owl-dot {
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+.photoslider.owl-loaded {
+  display: block; }
+.photoslider.owl-loading {
+  opacity: 0;
+  display: block; }
+.photoslider.owl-hidden {
+  opacity: 0; }
+.photoslider.owl-refresh .owl-item {
+  visibility: hidden; }
+.photoslider.owl-drag .owl-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+.photoslider.owl-grab {
+  cursor: move;
+  cursor: grab; }
+.photoslider.owl-rtl {
+  direction: rtl; }
+.photoslider.owl-rtl .owl-item {
+  float: right; }
+
+
+
+

@@ -1,0 +1,222 @@
+.owl-carouselfirst {
+  background: rgb(28,28,28);
+  height: 240px;
+}
+.owl-themefirst .owl-nav {
+  margin: 0px;
+  position: absolute;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-themefirst .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px; }
+    .owl-themefirst .owl-nav [class*='owl-']:hover {
+      background: none;
+      outline: 1px solid #f4511e;
+      -moz-outline-radius: 5px;
+      text-decoration: none;
+    }
+  .owl-themefirst .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+.owl-themefirst .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+/*ВСТАВИЛ СВОЕ!!!*/
+
+.owl-carouselfirst .owl-nav .owl-next, .owl-carouselfirst .owl-nav .owl-prev {
+  background: none;
+}
+
+.owl-carouselfirst .owl-stage-outer .item h1{
+  font-family: "Arial Unicode MS";
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 8px;
+  color: rgb(236,236,236);
+
+}
+.owl-carouselfirst .owl-stage-outer .item h1, .owl-carouselfirst .owl-stage-outer .item img{
+  display: block;
+  float: left;
+}
+/* конец своего кода /*
+
+--------------------------------TEST-----------------------------------
+.photoslidertheme
+ */
+
+
+.photoslidertheme {
+  width: 100%;
+  height: 435px;
+
+  margin-top: 5px;
+
+}
+.photoslider .owl-stage {
+  margin-top: 20px;
+}
+
+.photoslidertheme .owl-nav {
+  margin-top: 0px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+.photoslidertheme .owl-nav [class*='owl-'] {
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px; }
+.photoslidertheme .owl-nav [class*='owl-']:hover {
+  background: #869791;
+  color: #FFF;
+  text-decoration: none; }
+.photoslidertheme .owl-nav .disabled {
+  opacity: 0;
+  cursor: default; }
+
+.photoslidertheme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.photoslidertheme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+.photoslidertheme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+.photoslidertheme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px; }
+.photoslidertheme .owl-dots .owl-dot.active span, .photoslidertheme .owl-dots .owl-dot:hover span {
+  background: #f4511e; }
+
+
+/*----svoi kod---- */
+.photoslider .owl-stage-outer .item h1{
+  display: block;
+  float: left;
+  margin-left: 180px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 210px;
+
+
+  font-family: "Robotobold";
+  font-size: 20px;
+  color: rgb(61,61,61);
+  background: rgb(235,235,235);
+  width: 320px;
+  height: 226px;
+
+}
+.photoslider .owl-stage-outer .item p {
+  font-family: "RobotoLight";
+  font-size: 14px;
+  margin: 0px;
+  color: rgb(84,84,84);
+
+}
+
+
+.photoslider .owl-stage-outer .item .secblock {
+  display: block;
+  margin-left: 520px;
+
+  background: rgb(235,235,235);
+  width: 660px;
+  height: 435px;
+
+}
+
+.photoslider .owl-stage-outer .item .secblock h2 {
+  font-family: "Robotobold";
+  font-size: 20px;
+  color: rgb(61,61,61);
+
+  padding-top: 120px;
+  padding-left: 65px;
+  margin-bottom: 0px;
+
+}
+.photoslider .owl-stage-outer .item .secblock h6 {
+  font-family: "Robotothin";
+  font-size: 14px;
+  color: rgb(61,61,61);
+
+  padding-left: 65px;
+  margin-top: 10px;
+}
+.photoslider .owl-stage-outer .item .secblock .skill-name {
+  display: block;
+  float: left;
+  width: 120px;
+  height: 130px;
+
+  margin-left: 65px;
+}
+.photoslider .owl-stage-outer .item .secblock .skill-name p {
+  font-family: "Robotobold";
+  font-size: 14px;
+  color: rgb(61,61,61);
+
+  padding-bottom: 20px;
+
+}
+.photoslider .owl-stage-outer .item .secblock .progress{
+  display: block;
+  width: 366px;
+  height: 140px;
+  margin-left: 184px;
+  margin-right: 0px;
+
+}
+.photoslider .owl-stage-outer .item .secblock .progress progress {
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 30px;
+
+}
+.photoslider .owl-stage-outer .item .secblock .progress progress[value]{
+  width: 365px;
+  height: 1px;
+  background-color: #f4511e;
+
+}
+
+.photoslider .owl-stage-outer .item .secblock .progress progress::-webkit-progress-bar {
+  background-color: white;
+
+}
+.photoslider .owl-stage-outer .item .secblock .progress progress::-webkit-progress-value {
+  background-color: #f4511e;
+
+}
+.photoslider .owl-stage-outer .item .secblock .value {
+  position: absolute;
+  left: 1085px;
+  top: 235px;
+}
+.photoslider .owl-stage-outer .item .secblock .value p {
+  padding-bottom: 22px;
+}
+
+
+
